@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Style - Loja de Roupas Online</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <div>
+        <h1>Fashion Style</h1>
+        <p>Loja de roupas online com estilo e conforto</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container nav-content">
+      <a href="#home">Início</a>
+      <a href="#masculino">Masculino</a>
+      <a href="#feminino">Feminino</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="banner" id="home">
+      <div class="container banner-content">
+        <h2>Nova Coleção 2026</h2>
+        <p>Moda com estilo, versatilidade e conforto em cada peça.</p>
+        <a class="btn btn-primary" href="#produtos">Ver produtos</a>
+      </div>
+    </section>
+
+    <section class="container produtos-section" id="produtos">
+      <div class="section-header">
+        <h2>Nossos Produtos</h2>
+        <p>Peças selecionadas para renovar seu guarda-roupa.</p>
+      </div>
+
+      <div class="produtos">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80" alt="Camiseta Premium">
+          <div class="card-content">
+            <h3>Camiseta Premium</h3>
+            <p class="preco">R$ 89,90</p>
+            <button class="btn">Comprar</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Jaqueta Jeans">
+          <div class="card-content">
+            <h3>Jaqueta Jeans</h3>
+            <p class="preco">R$ 199,90</p>
+            <button class="btn">Comprar</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Tênis Casual">
+          <div class="card-content">
+            <h3>Tênis Casual</h3>
+            <p class="preco">R$ 249,90</p>
+            <button class="btn">Comprar</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container contato-section" id="contato">
+      <div class="section-header">
+        <h2>Contato / Inscrição</h2>
+        <p>Fale conosco ou se inscreva para receber novidades.</p>
+      </div>
+
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 Fashion Style - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
